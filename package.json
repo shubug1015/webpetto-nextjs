@@ -1,0 +1,28 @@
+{
+  "name": "webpetto_next",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "netlify-deploy": "next build && next export",
+    "vercel-deploy": "next build"
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "emailjs-com": "^2.6.4",
+    "next": "10.0.5",
+    "react": "17.0.1",
+    "react-dom": "17.0.1",
+    "react-ga": "^3.3.0",
+    "react-icons": "^4.1.0",
+    "smoothscroll-polyfill": "^0.4.4",
+    "styled-components": "^5.2.1",
+    "styled-reset": "^4.3.4",
+    "swiper": "^6.4.5"
+  },
+  "devDependencies": {
+    "babel-plugin-styled-components": "^1.12.0"
+  }
+}
